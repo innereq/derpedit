@@ -41,6 +41,9 @@ content/
 		attachment2.webm
 ```
 
+## Commiting
+When started correctly, the program starts a web server. Users see listing of `--content-directory`: a simple list of files they can click on; “Add” button to create a new article directory with `index.md` in it; “Upload” button to upload attached media to an article when browsing the article directory. Clicking on `index.md` shows editor, so users can see source of the file and edit it if they want to do so; if Git provider URL is specified, there is “History” button behind the text field which directs to e.g. GitHub file commits history.
+
 # Misc
 ## References
 - https://github.com/TrueBrain/TrueWiki
