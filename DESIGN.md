@@ -16,8 +16,8 @@ Options:
 	--storage-git-email TEXT	Default email to use when creating commits. [default: wiki@localhost]
 	--storage-github-url URL        Repository URL on GitHub.  [default: https://github.com/innereq/derpedit-example]
 	--storage-github-history-url URL	Repository URL on GitHub to visit history (defaults to --storage-github-url).
-  --storage-github-private-key TEXT	Base64-encoded private key to access GitHub. Always use this via an environment variable!
-  --storage-github-branch branch  Branch of the GitHub repository to use. [default: main]
+	--storage-github-private-key TEXT	Base64-encoded private key to access GitHub. Always use this via an environment variable!
+	--storage-github-branch branch  Branch of the GitHub repository to use. [default: main]
 ```
 
 `derpedit` is a companion tool to main `hugo` binary. It's used for manipulating contents of your Hugo static website, like: viewing source directory with its contents, viewing source of individual files, editing contents of files, uploading images and other media in article's directory, viewing file revisions etc.
