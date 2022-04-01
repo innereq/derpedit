@@ -25,7 +25,7 @@ Options:
 ## Default
 By default `derpedit` looks for a Git repository in current local working directory, if it doesn't exist and Git provider URL isn't provided the program must throw an error. If it exist, the program starts a web server and listens to HTTP requests, like GET and POST, and shows contents of the `--content-directory`.
 
-When some change is commited, the program launches `hugo` binary in current working directory to build our site. IF Git provider URL is specified, the program launches `git push` or similar programming language function (e.g. cgit2 bindings). If it's not provided, the program just launches `git commit` or similar.
+When some change is commited, the program launches `hugo` binary in current working directory to build our site. If Git provider URL is specified, the program launches `git push` or similar programming language function (e.g. cgit2 bindings). If it's not provided, the program just launches `git commit` or similar.
 
 ## --storage-github-url
 If Git provider URL is specified, the program launches `git clone` or similar to clone the repository in current working directory and work with it. When some change is commited, the program launches `git commit` and `git push` or similar and pushes changes to the Git provider URL using provided credentials. When URL is provided, web interface shows “history” button on files which directs to Git provider history URL (e.g. GitHub file commits history).
